@@ -1,4 +1,4 @@
-export interface Topping {
+export interface ActivityType {
   id?: number;
   name?: string;
   [key: string]: any;

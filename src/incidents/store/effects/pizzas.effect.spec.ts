@@ -8,7 +8,7 @@ import { Observable } from 'rxjs/Observable';
 import { empty } from 'rxjs/observable/empty';
 import { of } from 'rxjs/observable/of';
 
-import { PizzasService } from '../../services/pizzas.service';
+import { PizzasService } from '../../services/incidents.service';
 import * as fromEffects from './pizzas.effect';
 import * as fromActions from '../actions/pizzas.action';
 

@@ -7,7 +7,7 @@ import { Observable } from 'rxjs/Observable';
 import { tap, map, filter, take, switchMap } from 'rxjs/operators';
 import * as fromStore from '../store';
 
-import { Pizza } from '../models/pizza.model';
+import { Pizza } from '../models/incident.model';
 
 @Injectable()
 export class PizzaExistsGuards implements CanActivate {

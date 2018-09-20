@@ -17,8 +17,8 @@ import {
 
 import { map } from 'rxjs/operators';
 
-import { Pizza } from '../../models/pizza.model';
-import { Topping } from '../../models/topping.model';
+import { Pizza } from '../../models/incident.model';
+import { Topping } from '../../models/activity-type.model';
 
 @Component({
   selector: 'pizza-form',
@@ -27,11 +27,11 @@ import { Topping } from '../../models/topping.model';
   template: `
     <div class="pizza-form">
       <form [formGroup]="form">
-      
+
         <label>
           <h4>Pizza name</h4>
-          <input 
-            type="text" 
+          <input
+            type="text"
             formControlName="name"
             placeholder="e.g. Pepperoni"
             class="pizza-form__input"
@@ -42,7 +42,7 @@ import { Topping } from '../../models/topping.model';
             <p>Pizza must have a name</p>
           </div>
         </label>
-      
+
         <ng-content></ng-content>
 
         <label>

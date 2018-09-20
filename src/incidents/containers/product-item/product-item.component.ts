@@ -5,15 +5,15 @@ import { Observable } from 'rxjs/Observable';
 import { tap } from 'rxjs/operators';
 import * as fromStore from '../../store';
 
-import { Pizza } from '../../models/pizza.model';
-import { Topping } from '../../models/topping.model';
+import { Pizza } from '../../models/incident.model';
+import { Topping } from '../../models/activity-type.model';
 
 @Component({
   selector: 'product-item',
   changeDetection: ChangeDetectionStrategy.OnPush,
   styleUrls: ['product-item.component.scss'],
   template: `
-    <div 
+    <div
       class="product-item">
       <pizza-form
         [pizza]="pizza$ | async"

@@ -2,7 +2,7 @@ import { StoreModule, Store, combineReducers } from '@ngrx/store';
 import { ROUTER_NAVIGATION } from '@ngrx/router-store';
 
 import { TestBed } from '@angular/core/testing';
-import { Pizza } from '../../models/pizza.model';
+import { Pizza } from '../../models/incident.model';
 
 import * as fromRoot from '../../../app/store';
 import * as fromReducers from '../reducers/index';
