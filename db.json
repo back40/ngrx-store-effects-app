@@ -130,85 +130,88 @@
       "id": 5
     }
   ],
+  "activityTypes": [
+    {
+      "id": 1,
+      "name": "check fraud"
+    },
+    {
+      "id": 2,
+      "name": "ach fraud"
+    },
+    {
+      "id": 3,
+      "name": "kiting"
+    },
+    {
+      "id": 4,
+      "name": "identity theft"
+    },
+    {
+      "id": 5,
+      "name": "money laundering"
+    },
+    {
+      "id": 6,
+      "name": "loan fraud"
+    },
+    {
+      "id": 7,
+      "name": "wire fraud"
+    },
+    {
+      "id": 8,
+      "name": "debit card fraud"
+    },
+    {
+      "id": 9,
+      "name": "credit card fraud"
+    },
+    {
+      "id": 10,
+      "name": "drug related activity"
+    },
+    {
+      "id": 11,
+      "name": "account takeover"
+    },
+    {
+      "id": 12,
+      "name": "structuring"
+    }
+  ],
   "incidents": [
     {
-      "name": "Blazin' Inferno",
-      "toppings": [
+      "name": "Identity Theft in Pullman",
+      "activityTypes": [
         {
           "id": 12,
-          "name": "tomato"
+          "name": "structuring"
         },
         {
           "id": 4,
-          "name": "chili"
+          "name": "identity theft"
         },
         {
           "id": 10,
-          "name": "pepperoni"
+          "name": "drug related activity"
         },
         {
           "id": 9,
-          "name": "pepper"
-        },
-        {
-          "id": 5,
-          "name": "mozzarella"
-        },
-        {
-          "id": 3,
-          "name": "basil"
-        },
-        {
-          "id": 8,
-          "name": "onion"
-        },
-        {
-          "id": 1,
-          "name": "anchovy"
-        },
-        {
-          "id": 6,
-          "name": "mushroom"
+          "name": "credit card fraud"
         }
       ],
       "id": 1
     },
     {
-      "name": "Plain Ol' Pepperoni",
-      "toppings": [
+      "name": "Kiting in Spokane",
+      "activityTypes": [
         {
-          "id": 10,
-          "name": "pepperoni"
-        },
-        {
-          "id": 7,
-          "name": "olive"
-        },
-        {
-          "id": 6,
-          "name": "mushroom"
+          "id": 3,
+          "name": "kiting"
         }
       ],
       "id": 3
-    },
-    {
-      "name": "Test Pizza",
-      "toppings": [
-        {
-          "id": 3,
-          "name": "basil"
-        },
-        {
-          "id": 7,
-          "name": "olive"
-        }
-      ],
-      "id": 4
-    },
-    {
-      "name": "dfgdf",
-      "toppings": [],
-      "id": 5
     }
   ]
 }

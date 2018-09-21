@@ -25,18 +25,18 @@ import * as fromServices from './services';
 export const ROUTES: Routes = [
   {
     path: '',
-    canActivate: [fromGuards.PizzasGuard],
-    component: fromContainers.ProductsComponent
+    canActivate: [fromGuards.IncidentsGuard],
+    component: fromContainers.SawComponent
   },
   {
     path: 'new',
-    canActivate: [fromGuards.PizzasGuard, fromGuards.ToppingsGuard],
-    component: fromContainers.ProductItemComponent
+    canActivate: [fromGuards.IncidentsGuard, fromGuards.ActivityTypesGuard],
+    component: fromContainers.SawItemComponent
   },
   {
-    path: ':pizzaId',
-    canActivate: [fromGuards.PizzaExistsGuards, fromGuards.ToppingsGuard],
-    component: fromContainers.ProductItemComponent
+    path: ':incidentId',
+    canActivate: [fromGuards.IncidentExistsGuards, fromGuards.ActivityTypesGuard],
+    component: fromContainers.SawItemComponent
   }
 ];
 
@@ -46,11 +46,11 @@ export const ROUTES: Routes = [
     ReactiveFormsModule,
     HttpClientModule,
     RouterModule.forChild(ROUTES),
-    StoreModule.forFeature('products', reducers),
+    StoreModule.forFeature('Saw', reducers),
     EffectsModule.forFeature(effects)
   ],
   providers: [...fromServices.services, ...fromGuards.guards],
   declarations: [...fromContainers.containers, ...fromComponents.components],
   exports: [...fromContainers.containers, ...fromComponents.components]
 })
-export class ProductsModule {}
+export class SawModule {}

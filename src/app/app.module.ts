@@ -28,7 +28,7 @@ import { AppComponent } from './containers/app/app.component';
 export const ROUTES: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'products' },
   { path: 'products', loadChildren: '../products/products.module#ProductsModule' },
-  { path: 'incidents', loadChildren: '../incidents/incidents.module#IncidentsModule' }
+  { path: 'saw', loadChildren: '../saw/saw.module#SawModule' }
 ];
 
 @NgModule({
