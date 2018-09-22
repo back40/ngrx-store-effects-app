@@ -11,6 +11,7 @@ import { Component } from '@angular/core';
     <div class="app__content">
       <div class="app__nav">
         <a routerLink="products" routerLinkActive="active">Products</a>
+         <a routerLink="saw" routerLinkActive="active">Saw</a>
       </div>
       <div class="app__container">
         <router-outlet></router-outlet>
@@ -20,6 +21,6 @@ import { Component } from '@angular/core';
       </div>
     </div>
   </div>
-  `,
+  `
 })
 export class AppComponent {}
