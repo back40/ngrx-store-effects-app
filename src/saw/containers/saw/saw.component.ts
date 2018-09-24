@@ -11,7 +11,6 @@ import { Incident } from '../../models/incident.model';
   styleUrls: ['saw.component.scss'],
   template: `
     <div class="saw">
-     TEST
       <div class="saw__new">
         <a
           class="btn btn__ok"

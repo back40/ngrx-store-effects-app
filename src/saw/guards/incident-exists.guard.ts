@@ -16,7 +16,7 @@ export class IncidentExistsGuards implements CanActivate {
   canActivate(route: ActivatedRouteSnapshot): Observable<boolean> {
     return this.checkStore().pipe(
       switchMap(() => {
-        const id = parseInt(route.params.pizzaId, 10);
+        const id = parseInt(route.params.incidentId, 10);
         return this.hasIncident(id);
       })
     );

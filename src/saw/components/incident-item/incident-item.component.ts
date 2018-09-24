@@ -7,9 +7,9 @@ import { Component, Input, Output, EventEmitter, ChangeDetectionStrategy } from 
   template: `
     <div class="incident-item">
       <a [routerLink]="['/saw', incident.id]">
-        <incident-display
+        <!--<incident-display
           [incident]="incident">
-        </incident-display>
+        </incident-display>-->
         <h4>{{ incident.name }}</h4>
         <button type="button" class="btn btn__ok">
           View Incident

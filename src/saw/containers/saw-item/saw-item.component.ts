@@ -22,9 +22,9 @@ import { ActivityType } from '../../models/activity-type.model';
         (create)="onCreate($event)"
         (update)="onUpdate($event)"
         (remove)="onRemove($event)">
-        <incident-display
+        <!--<incident-display
           [incident]="visualise$ | async">
-        </incident-display>
+        </incident-display>-->
       </incident-form>
     </div>
   `

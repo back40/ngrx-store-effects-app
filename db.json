@@ -199,6 +199,22 @@
         {
           "id": 9,
           "name": "credit card fraud"
+        },
+        {
+          "id": 7,
+          "name": "wire fraud"
+        },
+        {
+          "id": 6,
+          "name": "loan fraud"
+        },
+        {
+          "id": 2,
+          "name": "ach fraud"
+        },
+        {
+          "id": 3,
+          "name": "kiting"
         }
       ],
       "id": 1
@@ -209,6 +225,10 @@
         {
           "id": 3,
           "name": "kiting"
+        },
+        {
+          "id": 2,
+          "name": "ach fraud"
         }
       ],
       "id": 3
